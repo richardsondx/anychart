@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <text x="100" y="30" font-size="24">Population</text>
+  <text x="100" y="470" font-size="12">Source: Statistics Canada, Population Estimates via CRED</text>
+  <text x="650" y="490" font-size="12">cred.nshipyard.com</text>
+  <text x="20" y="380" font-size="12">38,000,000</text>
+  <text x="20" y="220" font-size="12">40,000,000</text>
+  <text x="20" y="60" font-size="12">42,000,000</text>
+  <text x="100" y="430" font-size="12">2021-01-01</text>
+  <text x="250" y="430" font-size="12">2022-01-01</text>
+  <text x="400" y="430" font-size="12">2023-01-01</text>
+  <text x="550" y="430" font-size="12">2024-01-01</text>
+  <text x="700" y="430" font-size="12">2025-01-01</text>
+  <rect class="recession" x="300" y="50" width="100" height="350" fill="#cccccc" opacity="0.2"/>
+  <polyline points="100,375.34 250,335.22 400,261.83 550,166.39 700,105.13" fill="none" stroke="#0F1B2B" stroke-width="3"/>
+</svg>

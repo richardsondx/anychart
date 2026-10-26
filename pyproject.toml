@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anychart"
+version = "0.1.0"
+description = "Any chart in, one citable metadata record out. Built for Evidence (evidence8.com)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Richardson Dackam" }]
+keywords = ["chart", "evidence", "metadata", "svg", "ocr"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.scripts]
+anychart = "anychart.cli:main"
+
+[project.urls]
+Homepage = "https://evidence8.com"
+Repository = "https://github.com/richardsondx/anychart"
+
+[tool.setuptools.packages.find]
+where = ["src"]

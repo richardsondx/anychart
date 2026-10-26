@@ -1,0 +1,127 @@
+{
+  "schema": "evidence.asset-metadata.v1",
+  "status": "complete",
+  "identity": {
+    "assetId": "anychart_b3592222818dd6d2",
+    "canonicalKey": "b3592222818dd6d2fc5823520c29ed199dfca390cf457e4a6c28124659e63974",
+    "assetClass": "visual_evidence",
+    "visualType": "chart",
+    "visualSubtype": "line",
+    "exposed": true
+  },
+  "agent": {
+    "title": "Population",
+    "summary": "Population",
+    "claim": {
+      "text": "Population",
+      "supportStatus": "not_evaluated",
+      "confidence": null,
+      "basis": "svg_text"
+    },
+    "entities": [],
+    "metrics": [],
+    "dimensions": [],
+    "time": {
+      "start": "2021-01-01",
+      "end": "2025-01-01",
+      "granularity": "Quarterly",
+      "status": "known"
+    },
+    "geography": {
+      "name": "Canada",
+      "type": "country",
+      "status": "known"
+    },
+    "direction": "increasing",
+    "units": "Persons",
+    "queryHints": {
+      "searchText": "Population Statistics Canada, Population Estimates POPULATION",
+      "keywords": [],
+      "aliases": [
+        "POPULATION"
+      ]
+    }
+  },
+  "provenance": {
+    "publisher": "Statistics Canada, Population Estimates",
+    "document": null,
+    "documentId": "POPULATION",
+    "sourceKind": "government",
+    "sourceUrl": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901",
+    "sourcePageUrl": "https://cred.nshipyard.com/series/POPULATION",
+    "sourceAssetUrl": null,
+    "source_text": "Source: Statistics Canada, Population Estimates via CRED",
+    "footer_in_image": "cred.nshipyard.com",
+    "series_id": "POPULATION",
+    "source_table": "17-10-0009-01",
+    "vintage": "observations as of 2026-10-26",
+    "overlays": [
+      {
+        "type": "recession_shading",
+        "class": "recession"
+      }
+    ]
+  },
+  "delivery": {
+    "rights": {
+      "label": "Source: Statistics Canada, Population Estimates via CRED. Rights not stated in image.",
+      "deliveryMode": "unknown",
+      "citationRequired": true,
+      "commercialUse": "not_evaluated"
+    },
+    "availability": "available"
+  },
+  "quality": {
+    "validation": {
+      "status": "pass",
+      "issues": [],
+      "warnings": []
+    },
+    "semanticInspection": {
+      "status": "not_run",
+      "provider": null,
+      "model": null,
+      "inspectedAt": null
+    }
+  },
+  "audit": {
+    "generatedBy": "anychart.v0.1",
+    "generatedAt": "2026-10-26T16:36:14.392593+00:00",
+    "method": "svg_geometry",
+    "format": "svg",
+    "dimensions": null,
+    "sourceFingerprint": "b3592222818dd6d2fc5823520c29ed199dfca390cf457e4a6c28124659e63974"
+  },
+  "data": [
+    {
+      "date": "2021-01-01",
+      "value": 38058250,
+      "method": "svg_geometry",
+      "confidence": "high"
+    },
+    {
+      "date": "2022-01-01",
+      "value": 38559750,
+      "method": "svg_geometry",
+      "confidence": "high"
+    },
+    {
+      "date": "2023-01-02",
+      "value": 39477125,
+      "method": "svg_geometry",
+      "confidence": "high"
+    },
+    {
+      "date": "2024-01-02",
+      "value": 40670125,
+      "method": "svg_geometry",
+      "confidence": "high"
+    },
+    {
+      "date": "2025-01-01",
+      "value": 41435875,
+      "method": "svg_geometry",
+      "confidence": "high"
+    }
+  ]
+}
